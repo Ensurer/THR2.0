@@ -1,0 +1,61 @@
+#weather-carousel{
+	
+	max-height:440px;
+	overflow:hidden;
+	
+	
+	
+	
+}
+#weather-carousel li{
+	min-height:0px;
+	float:none;
+	display:-webkit-inline-box;
+    text-align: -webkit-match-parent;
+}
+.caption {
+    position: absolute;
+    background: rgba(1, 1, 1, 0.4);
+    background-size: cover !important;
+    padding: 20px;
+    left: 0;
+    top: 0 !important;
+    text-align: center;
+    width: 100%;
+}
+.w3layouts-info{
+	padding:2em 0 0 0;
+	height:400px;
+}
+.w3layouts-info-top{
+	margin:0 0 1em 0;
+}
+.w3layouts-info-top h3{
+	color:#FFFFFF;
+	font-size:5em;
+	margin:0;
+	font-weight:600;
+}
+.w3layouts-info-top h4{
+	color:#FFFFFF;
+	font-size:1.5em;
+	margin:0;
+	font-weight:300;
+}
+.w3layouts-info-top p{
+	color:#FFFFFF;
+	font-size:.9em;
+	margin:1em 0 0 0;
+}
+.w3layouts-info-bottom{
+	margin:1em 0 0 0;
+}
+.w3layouts-info-bottom h5{
+    color: #FFFFFF;
+    font-size: 1.1em;
+}
+.w3layouts-info-bottom p{
+	color:#FFFFFF;
+	font-size:.9em;
+	margin:1em 0 0 0;
+}

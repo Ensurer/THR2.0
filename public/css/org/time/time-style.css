@@ -1,0 +1,169 @@
+#time-container{
+	opacity: 1;
+	background-color:transparent;
+	width: 100%;
+	height:440px;
+    position: relative;
+    background: url(/images/org/time-images/container-bg.png) repeat scroll 0 0;
+    overflow: hidden;
+    display: none;
+    top: 0px;
+    z-index: 1000;
+	
+}
+#time-container li{
+	min-height:0px;
+	float:none;
+	display: list-item;
+    text-align: -webkit-match-parent;
+	
+}
+
+#time-totoggle{
+	position:relative;
+	display:block;
+	
+	
+}
+#time-homepage h1{
+	color: rgb(113, 201, 214);
+	font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+#time-countdown{
+	color:#3497b8;
+	float: left;
+    padding: 0;
+    position: relative;
+    width:100%;
+	text-align:center;
+}
+
+.time-top-buttons{
+	position: relative;
+    height: 31px;
+    width: 100%;
+	display:block;
+	top:-20px;
+}
+.time-bottom-buttons{
+	position: relative;
+	height: 31px;
+    width: 100%;
+}
+.time-bottom-buttons .time-info{
+	background: url(/images/org/time-images/info.png) no-repeat scroll 0 0;
+    bottom: -30px;
+    right: 32px;
+	
+	
+}
+.time-bottom-buttons .time-contact{
+	background: url(/images/org/time-images/contact.png) no-repeat scroll 0 0;
+    bottom: -30px;
+    right: 0;
+	
+	
+}
+.time-bottom-buttons a, .time-top-buttons a {
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    display: block;
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+a.trigger{
+	opacity: 0.5;
+	background: url(/images/org/time-images/toggle-minus.png) no-repeat scroll 0 0;
+    top: 0;
+    right: 0
+	
+}
+a.drag{
+	background: url(/images/org/time-images/drag.png) no-repeat scroll 0 0;
+    top: 0;
+    right: 32px;
+	
+	
+}
+a.time-logo{
+    text-align: center;
+    display: block;
+    margin-top: 0px;	
+}
+.time-hascountdown{
+	height: 87px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+	
+	
+}
+.time-item {
+    float: left;
+    text-align: center;
+    margin: 0 15px;
+    width: 67px;
+    height: 67px;
+    position: relative;
+    background: url(/images/org/time-images/countdown-item.png) no-repeat scroll 0 0;
+}
+.time-item p{
+	line-height: 1.5;
+	text-align: center;
+	color: #3497b8;
+	margin-bottom:0px;
+	font-size: 24px;
+	
+}
+#time-description{
+	clear: both;
+	position :relative;
+}
+#descriptionform {
+	margin-bottom: 10px;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position: relative;
+	
+}
+#time-subtime{
+    background: url(/images/org/time-images/bg-form.png) repeat scroll 0 0;
+    width: 70%;
+    height: 100%;
+    border: 0 none;
+    padding: 10px;
+    float: left;
+    color: #bfbfbf;
+	    font-size: 12px;
+    line-height:100%;
+    font: inherit;
+    resize: none;
+	
+}
+#time-subsubmit{
+	color: #fff;
+	height: 42px;
+    width: 30%;
+    float: left;
+	background: #3497b8;
+}
+
+@media  screen and (max-width:450px){
+	#descriptionform{
+		width:100% !important;
+	}
+	#time-subtime{
+		width:65% !important;
+		margin-left:10px;
+	}
+	.time-item{
+		margin:0px !important;
+	}
+}

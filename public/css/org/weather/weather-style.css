@@ -1,0 +1,129 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+/* reset */
+/* start editing from here */
+.wrapper {
+    text-align: center;
+}
+
+/*-- w3layouts --*/
+.wrapper {
+    text-align: center;
+}
+.caption {
+    position: absolute;
+    background: rgba(1, 1, 1, 0.4);
+    background-size: cover !important;
+    padding: 20px;
+    left: 0;
+    top: 0 !important;
+    text-align: center;
+    width: 100%;
+}
+.w3layouts-info{
+	padding:2em 0 0 0;
+	height:349px;
+}
+.w3layouts-info-top{
+	margin:0 0 1em 0;
+}
+.w3layouts-info-top h3{
+	color:#FFFFFF;
+	font-size:5em;
+	margin:0;
+	font-weight:600;
+}
+.w3layouts-info-top h4{
+	color:#FFFFFF;
+	font-size:1.5em;
+	margin:0;
+	font-weight:300;
+}
+.w3layouts-info-top p{
+	color:#FFFFFF;
+	font-size:.9em;
+	margin:1em 0 0 0;
+}
+.w3layouts-info-bottom{
+	margin:1em 0 0 0;
+}
+.w3layouts-info-bottom h5{
+    color: #FFFFFF;
+    font-size: 1.1em;
+}
+.w3layouts-info-bottom p{
+	color:#FFFFFF;
+	font-size:.9em;
+	margin:1em 0 0 0;
+}
+.w3ls-copyright{
+	margin:2em 0 0;
+	text-align:center;
+}
+.w3ls-copyright p{
+	color:#212121;
+	font-size:.9em;
+	margin:0;
+}
+.w3ls-copyright p a{
+	color:#212121;
+	text-decoration:none;
+}
+.w3ls-copyright p a:hover{
+	text-decoration:underline;
+}
+/*-- responsive --*/
+@media(max-width:600px){
+	.caption {
+		width: 196px;
+	}
+}
+@media(max-width:480px){	
+	.content h1 {
+		font-size: 2em;
+	}
+	.caption {
+		width: 148px;
+	}
+	.w3layouts-info-top h3 {
+		font-size: 4em;
+	}
+}
+@media(max-width:414px){
+	.w3layouts-info-top h3 {
+		font-size: 3em;
+	}
+	.caption {
+	    width: 157px;
+		padding: 5px;
+	}
+}
+@media(max-width:384px){
+	.caption {
+		width: 142px;
+	}
+	.w3layouts-info-bottom h5 {
+		font-size: 1em;
+	}
+}
+@media(max-width:320px){
+	.content {
+		padding: 2em 0;
+	}
+	.caption {
+		width: 120px;
+	}
+	.content h1 {
+		font-size: 1.6em;
+	}
+	.w3layouts-info {
+		padding: 1em 0 0 0;
+		height: 289px;
+	}
+}
+/*-- //responsive --*/
